@@ -13,7 +13,7 @@ namespace ConsoleApp2
             try
             {
                 var result = new DataTable().Compute(value, null);
-                Console.WriteLine("result = " + result);
+                Console.WriteLine($"Result = :{ result}");
             }
             catch(Exception exeption)
             {
